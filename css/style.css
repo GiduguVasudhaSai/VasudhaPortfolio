@@ -1,0 +1,52 @@
+
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("/images/banner_img.jpg");
+    background-size: cover;
+    position: relative;
+}
+section {
+    padding-top: 100px;
+}
+.bannerText {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    
+}
+
+.bannerTitle {
+    font-size: 6rem;
+}
+
+.bannerDesc {
+    font-size: 4rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+border: 2px solid whitesmoke;
+}
+
+.card-img-top {
+    height: 50vh;
+}
